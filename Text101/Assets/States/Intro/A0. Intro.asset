@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62418905d095194bb12badce8ec1608, type: 3}
+  m_Name: A0. Intro
+  m_EditorClassIdentifier: 
+  storyText: 'Welcome to this game.
+
+
+    At each stage you''ll asked to push a key
+    on your keyboard, for example 1 or 2.
+
+
+    At any point, push "q" to quit.
+
+
+    1.
+    Press 1 to start'
+  nextStates:
+  - {fileID: 11400000, guid: d56e55a59042ece4082c6934c66ac7fb, type: 2}
