@@ -15,20 +15,17 @@ MonoBehaviour:
   storyText: 'You open up the valve (anti-clockwise), step back, and congratulate
     yourself on averting certain tragedy. Phew, that was close.
 
-    
 
-    As you
-    stand pondering your next move, you hear a popping noise, as if a huge build
-    up of steam has cause the rivet of a boiler to be expunged like a squeezed whitehead
+    As you stand
+    pondering your next move, you hear a popping noise, as if a huge build up of
+    steam has cause the rivet of a boiler to be expunged like a squeezed whitehead
     on a teenager''s forehead.
 
-    
 
-    Then another. Then another. Oh..... maybe
-    the men turned off more than on valve. You hear an almighty screeching as the
-    huge gears and cogs start to jam. Then a deafening road.
+    Then another. Then another. Oh..... maybe the
+    men turned off more than on valve. You hear an almighty screeching as the huge
+    gears and cogs start to jam. Then a deafening road.
 
-    
 
     1. Continue...'
   nextStates:

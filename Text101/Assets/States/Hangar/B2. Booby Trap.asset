@@ -15,13 +15,11 @@ MonoBehaviour:
   storyText: 'You stand up, a little groggily, back up to the far edge of the wall
     and make an almighty sprint towards the door.
 
-    
 
-    And, of course, its
-    booby trapped. Maybe next time you want to ask what the red wires are wrapped
-    around the door.
+    And, of course, its booby
+    trapped. Maybe next time you want to ask what the red wires are wrapped around
+    the door.
 
-    
 
     1. Continue...'
   nextStates:

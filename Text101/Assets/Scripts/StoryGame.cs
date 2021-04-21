@@ -21,13 +21,11 @@ public class StoryGame : MonoBehaviour {
 	}
 
 	private void ManageState() {
-		State[] nextStates = state.GetNextStates();
-		if (Input.GetKeyDown(KeyCode.Alpha1)) {
-			this.state = nextStates[0];
-			Debug.Log("State: " + this.state.name + " | NextStage: " + 0);
-		} else if (Input.GetKeyDown(KeyCode.Alpha2)) {
-			this.state = nextStates[1];
-			Debug.Log("State: " + this.state.name + " | NextStage: " + 1);
+		State[] nextStates = this.state.GetNextStates();
+		for (int i = 0; i < nextStates.Length; i++) {
+			if (Input.GetKeyDown(KeyCode.Alpha1 + i)) {
+				this.state = nextStates[1];
+			}
 		}
 		this.textComponent.text = this.state.GetStateStory();
 	}

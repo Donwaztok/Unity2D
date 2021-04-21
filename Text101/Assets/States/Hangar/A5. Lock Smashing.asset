@@ -16,21 +16,19 @@ MonoBehaviour:
     see a crate with all manner of pipes, wires and cogs scattered within it. Mostly
     trash.
 
-    
 
-    You could try the brute force approach - wack the lock with
-    one of the pipes. Or you could take some time to build a contraption with some
-    kind of leverage, maybe a mini pulley system with those wires and the cogs.
+    You could try the brute force approach - wack the lock with one
+    of the pipes. Or you could take some time to build a contraption with some kind
+    of leverage, maybe a mini pulley system with those wires and the cogs.
 
-    
 
     How
     to proceed?
 
     1. No time to waste, grab the pipe, start wacking.
 
-    2.
-    Take the time to build a leverage-gadget.'
+    2. Take
+    the time to build a leverage-gadget.'
   nextStates:
   - {fileID: 11400000, guid: 413296e91ea2d8d40b675c536e1060e2, type: 2}
   - {fileID: 11400000, guid: 413296e91ea2d8d40b675c536e1060e2, type: 2}

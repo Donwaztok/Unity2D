@@ -15,17 +15,15 @@ MonoBehaviour:
   storyText: 'You wait it out. After, perhaps, 20 minutes you hear feet shuffling.
     Keys jangle. The door starts to unlock.
 
-    
 
     What to do?
 
-    
 
-    1.
-    Wait a little longer, it seemed to work last time.
+    1. Wait a little
+    longer, it seemed to work last time.
 
-    2. Rush the door and
-    thrust a handful of knuckles through the chestplate of whoever enters.'
+    2. Rush the door and thrust a handful
+    of knuckles through the chestplate of whoever enters.'
   nextStates:
   - {fileID: 11400000, guid: bbb1fe49a5e146b4d8c85bcfcc56032f, type: 2}
   - {fileID: 11400000, guid: 67ece821645495a4cb66725b6f9da1dd, type: 2}

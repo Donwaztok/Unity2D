@@ -14,27 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: 'Festers. Everywhere. Armed mostly with gas-powered rock flingers.
 
-    
 
     At
     least 10 of them guarding the hangar door. Typical.
 
-    
 
     Could try punching
     your way through. Or sneaking the long way to the emergency exit.
 
-    
 
     What
     should you do?
 
-    
 
     1. Take them head on - rush the 10 guards.
 
-    2.
-    Sneak your way to the emergency exit.'
+    2. Sneak
+    your way to the emergency exit.'
   nextStates:
   - {fileID: 11400000, guid: 095f593a750850f4db19144bd8facf00, type: 2}
   - {fileID: 11400000, guid: 9e318e1a5dc0cc9468248c129419f4c8, type: 2}

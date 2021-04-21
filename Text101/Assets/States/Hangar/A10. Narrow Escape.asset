@@ -15,20 +15,17 @@ MonoBehaviour:
   storyText: 'You take your cue from the two men and get on your horse. Figuratively
     of course, no one rides horses since the combustamobile was invented.
 
-    
 
     You
     zig. You zag. You weave through the huge machinery of the pumping station. Steam
     jets have started squirting out of pipes. Gears are grinding to a halt. You see
     the exit ahead.
 
-    
 
-    Something behind you gives a grinding screech. Metal
-    eating into metal. You leap for the door and slide through on your stomach, just
-    as all hell breaks lose behind you.
+    Something behind you gives a grinding screech. Metal eating
+    into metal. You leap for the door and slide through on your stomach, just as
+    all hell breaks lose behind you.
 
-    
 
     1. Continue...'
   nextStates:

@@ -14,17 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: 'You give it a good 10 minutes. No dice. Not going to happen.
 
-    
 
     You
     do realise that you have no idea how to pick a lock right? You''re an airship
     pilot, not a common thief.
 
-    
 
     So what now?
 
-    1. Fine, try to pry
-    it.'
+    1. Fine, try to pry it.'
   nextStates:
   - {fileID: 11400000, guid: 778445f42ed89724a9a1c034d830297a, type: 2}

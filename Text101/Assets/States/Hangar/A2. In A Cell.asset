@@ -16,22 +16,18 @@ MonoBehaviour:
     up dumped in a dirty cell. The bars are thick cast iron. The door is old and
     patched together with plate metal and thick red wires.
 
-    
 
-    You have
-    no idea where you are. And your head hurts.
+    You have no idea
+    where you are. And your head hurts.
 
-    
 
-    So, what to do now,
-    slugger?
+    So, what to do now, slugger?
 
-    
 
-    1. Wait it out. My head hurts.
+    1.
+    Wait it out. My head hurts.
 
-    2. Slam into the door
-    with all my might.'
+    2. Slam into the door with all my might.'
   nextStates:
   - {fileID: 11400000, guid: 09c43546779faec488d63a0851ef7e6a, type: 2}
   - {fileID: 11400000, guid: e5b8d7ff0fb29e740a18641d6257fd48, type: 2}

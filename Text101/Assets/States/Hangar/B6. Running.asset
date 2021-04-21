@@ -16,20 +16,17 @@ MonoBehaviour:
     make a loud racket as you clamber up them. Thank goodness the machinery in this
     place is so loud.
 
-    
 
-    In front of you is the emergency exit door. It
-    has an oversized, cast iron lock hanging from a bolted handle. You could try
-    picking the lock, or maybe look for a way to pry it off.
+    In front of you is the emergency exit door. It has an
+    oversized, cast iron lock hanging from a bolted handle. You could try picking
+    the lock, or maybe look for a way to pry it off.
 
-    
 
-    What to
-    do?
+    What to do?
 
-    
 
-    1. Pick it.
+    1. Pick
+    it.
 
     2. Pry it.'
   nextStates:
