@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System;
 
 public class GameSession : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class GameSession : MonoBehaviour {
 	[Range(0.1f, 10)] [SerializeField] float gameSpeed = 1;
 	[SerializeField] int scorePerBlock = 83;
 	[SerializeField] TextMeshProUGUI scoreText;
+	[SerializeField] bool isAutoPlayEnabled;
 
 	// State
 	[SerializeField] int currentScore = 0;
@@ -33,7 +35,11 @@ public class GameSession : MonoBehaviour {
 		this.scoreText.text = this.currentScore.ToString();
 	}
 
-    public void ResetGame(){
+	internal bool IsAutoPlayEnabled() {
+		return this.isAutoPlayEnabled;
+	}
+
+	public void ResetGame(){
         Destroy(gameObject);
     }
 }
