@@ -8,6 +8,7 @@ public class Player : MonoBehaviour {
 	// Params
 	[SerializeField] float moveSpeed = 10;
 	[SerializeField] float padding = 1;
+	[SerializeField] GameObject laserPrefab;
 
 	// State
 	float xMin;
@@ -20,17 +21,10 @@ public class Player : MonoBehaviour {
 		SetUpMoveBoundaries();
 	}
 
-	private void SetUpMoveBoundaries() {
-		Camera gameCamera = Camera.main;
-		xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + this.padding;
-		xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - this.padding;
-		yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + this.padding;
-		yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - this.padding;
-	}
-
 	// Update is called once per frame
 	void Update() {
 		Move();
+		Fire();
 	}
 
 	private void Move() {
@@ -40,4 +34,19 @@ public class Player : MonoBehaviour {
 		float newYPos = Mathf.Clamp(transform.position.y + deltaY, this.yMin, this.yMax);
 		transform.position = new Vector2(newXPos, newYPos);
 	}
+
+	private void Fire(){
+		if (Input.GetButtonDown("Fire1")){
+			Instantiate(laserPrefab, transform.position, Quaternion.identity);
+		}
+	}
+
+	private void SetUpMoveBoundaries() {
+		Camera gameCamera = Camera.main;
+		xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + this.padding;
+		xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - this.padding;
+		yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + this.padding;
+		yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - this.padding;
+	}
+
 }
