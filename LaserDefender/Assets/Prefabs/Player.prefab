@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6379397684346139361}
   - component: {fileID: 6379397684346139360}
   - component: {fileID: 6379397684346139362}
-  m_Layer: 0
+  - component: {fileID: 6379397684371852002}
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,4 +98,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 1
+  health: 200
   laserPrefab: {fileID: 8970101164131186046, guid: 72671e6e14ca2184cbd77fc325a37299, type: 3}
+  projectileSpeed: 10
+  projectileFiringPeriod: 0.05
+  deathVFX: {fileID: 6116212282111172469, guid: ec667633f80478b4dbd2844d60e7213e, type: 3}
+  durationExplosion: 1
+  deathSFX: {fileID: 8300000, guid: 238436bfa1e0d5046a045e93109bef27, type: 3}
+  deathSFXVolume: 1
+  shootSFX: {fileID: 8300000, guid: 8126c20092bc1624689e468f7e540a42, type: 3}
+  shootSFXVolume: 0.25
+--- !u!60 &6379397684371852002
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6379397684346141983}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.12, y: 0.75}
+    newSize: {x: 1.12, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.43190533, y: -0.25095263}
+      - {x: 0.53595275, y: -0.095}
+      - {x: 0.56, y: -0.05507864}
+      - {x: 0.45992112, y: -0.013055191}
+      - {x: 0.36396846, y: 0.01492136}
+      - {x: 0.13603154, y: 0.14484224}
+      - {x: 0.1373069, y: 0.17192316}
+      - {x: 0.10265913, y: 0.19264936}
+      - {x: 0.059921145, y: 0.30289742}
+      - {x: 0.054006975, y: 0.32831478}
+      - {x: 0.019921139, y: 0.37900782}
+      - {x: -0.029881716, y: 0.37900782}
+      - {x: -0.10381073, y: 0.19309427}
+      - {x: -0.140071, y: 0.17537785}
+      - {x: -0.15006012, y: 0.13694811}
+      - {x: -0.44972557, y: -0.014260769}
+      - {x: -0.47437784, y: 0.00068569183}
+      - {x: -0.5720237, y: -0.05507864}
+      - {x: -0.5359526, y: -0.1069448}
+      - {x: -0.503929, y: -0.15694481}
+      - {x: -0.37595266, y: -0.3469448}
+      - {x: -0.16392902, y: -0.29690525}
+      - {x: -0.10591325, y: -0.375}
+      - {x: 0.115952685, y: -0.375}
+      - {x: 0.16595267, y: -0.27690572}
+      - {x: 0.3159921, y: -0.33896872}
+      - {x: 0.3819842, y: -0.3369448}
